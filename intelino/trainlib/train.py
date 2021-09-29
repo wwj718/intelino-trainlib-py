@@ -10,7 +10,9 @@
 import asyncio
 from collections import defaultdict
 import threading
-from typing import Any, Callable, Coroutine, Iterable, List, TypeVar, Union, get_args
+from typing import Any, Callable, Coroutine, Iterable, List, TypeVar, Union # , get_args
+from typing_inspect import get_args # pip install typing_inspect
+
 from rx import operators as ops
 from rx.core.typing import Disposable
 
